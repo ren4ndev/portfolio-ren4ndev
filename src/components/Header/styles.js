@@ -4,14 +4,12 @@ const HeaderContainer = styled.header`
   align-items: center;
   background-color: ${({ theme }) => theme.colors.primary};
   display: flex;
-  height: 80px;
   justify-content: space-between;
-  padding: 3rem;
+  padding: 1rem 3rem;
+  transition: all .4s ease;
 `;
 
 const Logo = styled.h1`
-  height: 65px;
-  width: 65px;
   font-family: ${({ theme }) => theme.fonts.logo};
   font-weight: 400;
 `;
@@ -21,10 +19,15 @@ const Image = styled.img`
   width: 100%;
 `;
 
-const NavContainer = styled.nav``;
+const NavContainer = styled.nav`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
 
 const NavList = styled.ul`
   display: flex;
+  margin: 30px;
   padding: 0;
 `;
 

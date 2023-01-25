@@ -15,6 +15,7 @@ const Typography = styled('span').attrs(({ tag }) => ({
   }
 };
   line-height: ${({ theme, type }) => theme.typography.types[type].lineHeight};
+  transition: all .4s ease;
 `;
 
 export default Typography;
