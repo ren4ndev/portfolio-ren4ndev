@@ -24,7 +24,7 @@ const DisplayTextArea = styled.div`
 `;
 
 const DescriptionTextArea = styled.div`
-  font-family: ${({ theme }) => theme.fonts.sans};
+  font-family: ${({ theme }) => theme.fonts.mono};
   max-width: 600px;
   transition: all .4s ease;
 `;

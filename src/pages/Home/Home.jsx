@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Header from '../../components/Header/Header';
+import Header from '../../components/Header';
 import InfoSection from '../../components/InfoSection';
+import AboutMeSection from '../../components/AboutMeSection/AboutMeSection';
 
 function Home({
   theme,
@@ -11,6 +12,7 @@ function Home({
     <>
       <Header theme={theme} themeToggler={themeToggler} />
       <InfoSection />
+      <AboutMeSection />
     </>
   );
 }

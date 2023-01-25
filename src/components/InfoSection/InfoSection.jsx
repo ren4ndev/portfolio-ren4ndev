@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import GridSection from '../GridSection';
 import Typography from '../Typography/styles';
@@ -22,7 +23,11 @@ function InfoSection() {
           <Typography as="h2" color="textscale-06" type="display-01">I&apos;m a software developer</Typography>
         </DisplayTextArea>
         <DescriptionTextArea>
-          <Typography as="p" color="textscale-05" type="body-02" weight="regular">I&apos;m a Full-stack developer, graduated at Trybe. My current goal is to keep improving my skills as a Python back-end developer, but there&apos;s a lot of other technologies that i know, work and that I&apos;m learning too. My permanent goal is to always be a Clean Coder.</Typography>
+          <Typography as="p" color="textscale-05" type="body-02" weight="regular">
+            <Typography color="tertiary" type="body-02" weight="regular">&lt;p&gt; </Typography>
+            I&apos;m a Full-stack developer, graduated at Trybe. My current goal is to keep improving my skills as a Python back-end developer, but there&apos;s a lot of other technologies that i know, work and that I&apos;m learning too. My permanent goal is to always be a Clean Coder.
+            <Typography color="tertiary" type="body-02" weight="regular">&lt;/p&gt; </Typography>
+          </Typography>
         </DescriptionTextArea>
       </InfoContainer>
     </GridSection>

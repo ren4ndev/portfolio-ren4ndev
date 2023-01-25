@@ -33,6 +33,7 @@ const GlobalStyle = createGlobalStyle`
     display: block;
   }
   body {
+    font-family: ${({ theme }) => theme.fonts.sans};
     line-height: 1;
   }
   ol, ul {
