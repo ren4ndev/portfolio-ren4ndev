@@ -45,7 +45,7 @@ function Header({
 }
 
 Header.propTypes = {
-  theme: PropTypes.bool.isRequired,
+  theme: PropTypes.string.isRequired,
   themeToggler: PropTypes.func.isRequired,
 };
 
