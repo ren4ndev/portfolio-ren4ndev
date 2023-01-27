@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import logo from '../../assets/images/logo.png';
 import Typography from '../Typography';
 import ThemeButton from '../ThemeButton';
 import {
@@ -8,6 +9,7 @@ import {
   NavContainer,
   NavList,
   NavListItem,
+  Image,
 } from './styles';
 
 function Header({
@@ -17,7 +19,7 @@ function Header({
   return (
     <HeaderContainer>
       <Logo>
-        <Typography type="body-01" color="tertiary">ren4ndev</Typography>
+        <Image src={logo} />
       </Logo>
       <NavContainer>
         <NavList>

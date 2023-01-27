@@ -39,9 +39,9 @@ function SkillsSection() {
           title="Other skills"
           description="As a software engineer, I&apos;ve worked with a lot of other technologies and patterns."
           firstSubtitle="I&apos;ve already worked with:"
-          firstContent={['POO', 'Micro services architecture', 'Gitflow']}
+          firstContent={['OOP (Object-Oriented Programming)', 'Micro services architecture', 'Airflow', 'Datadog', 'Gitflow', 'Atomic Design', 'Atomic Kitchen']}
           secondSubtitle="I&apos;m familiar with:"
-          secondContent={['Clean code', 'Cloud']}
+          secondContent={['Clean architecture', 'Cloud']}
         />
       </SkillsContainer>
     </GridSection>

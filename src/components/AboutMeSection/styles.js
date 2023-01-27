@@ -31,9 +31,9 @@ const ImageContainer = styled.div`
   align-self: center;
   grid-column: col-2 / col-6;
   grid-row: start / end;
-  height: 250px;
-  justify-self: center;
-  width: 250px;
+  height: 320px;
+  justify-self: flex-end;
+  width: 320px;
 `;
 
 const ImageArea = styled.img`

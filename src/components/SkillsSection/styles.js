@@ -11,7 +11,8 @@ const SkillsContainer = styled.div`
 `;
 
 const GridContainer = styled.div`
-  background-color: ${({ theme }) => theme.colors.tertiary};
+  background: ${({ theme }) => theme.colors['background-scale-01']};
+  background: ${({ theme }) => `linear-gradient(90deg, ${theme.colors['background-scale-01']} 0%, ${theme.colors['background-scale-04']} 100%)`};
   display: flex;
   flex-direction: column;
   grid-column: left-border / right-border;

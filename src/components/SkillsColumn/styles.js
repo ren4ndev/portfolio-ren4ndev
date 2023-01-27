@@ -15,12 +15,12 @@ const ColumnBox = styled.div`
   justify-content: flex-start;
   height: 100%;
   padding: 30px 50px;
-  width: 30%;
+  width: 32%;
 `;
 
 const IconBox = styled.div`
   align-items: center;
-  background-color: ${({ theme }) => theme.colors.tertiary};
+  background-color: ${({ theme }) => theme.colors.quarternary};
   border-radius: 50px;
   display: flex;
   justify-content: center;

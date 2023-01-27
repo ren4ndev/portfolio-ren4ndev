@@ -5,7 +5,7 @@ import GlobalStyle from './styles/globalStyle';
 import { themeLight, themeDark } from './styles/theme';
 
 function App() {
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState('light');
   const themeToggler = () => (
     theme === 'light' ? setTheme('dark') : setTheme('light')
   );
