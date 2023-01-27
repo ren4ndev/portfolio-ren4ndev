@@ -47,6 +47,10 @@ const ListIcon = styled(ListCheck)`
 const TitleArea = styled.div`
   font-family: ${({ theme }) => theme.fonts.sans};
   margin-bottom: 25px;
+
+  h4 {
+    text-align: center;
+  }
 `;
 
 const DescriptionArea = styled.div`
