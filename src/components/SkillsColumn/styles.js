@@ -4,6 +4,7 @@ import {
   FileEarmarkCodeFill,
   ListCheck,
 } from '@styled-icons/bootstrap';
+import { breakpoints } from '../../styles/theme';
 
 const ColumnBox = styled.div`
   align-items: center;
@@ -13,9 +14,19 @@ const ColumnBox = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 100%;
-  padding: 30px 50px;
-  width: 32%;
+  height: auto;
+  margin: 10px auto;
+  max-width: 300px;
+  min-height: 550px;
+  padding: 1.5rem 1rem;
+  width: 100%;
+  
+  @media screen and (min-width: ${breakpoints.medium}) {
+    height: 100%;
+    margin: 0;
+    padding: 30px 50px;
+    width: 32%;
+  }
 `;
 
 const IconBox = styled.div`
@@ -55,7 +66,6 @@ const TitleArea = styled.div`
 
 const DescriptionArea = styled.div`
   font-family: ${({ theme }) => theme.fonts.sans};
-  margin-bottom: 25px;
   p {
     text-align: center;
   }
@@ -63,12 +73,12 @@ const DescriptionArea = styled.div`
 
 const SubtitleArea = styled.div`
   font-family: ${({ theme }) => theme.fonts.sans};
+  margin-top: 25px;
 `;
 
 const ContentArea = styled.ul`
   font-family: ${({ theme }) => theme.fonts.sans};
   list-style: none;
-  margin-bottom: 25px;
 `;
 
 const ListItem = styled.li`

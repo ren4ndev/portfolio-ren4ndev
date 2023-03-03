@@ -1,13 +1,23 @@
 import styled from 'styled-components';
+import { breakpoints } from '../../styles/theme';
 
 const SkillsContainer = styled.div`
+  align-items: center;
+  align-content: center;
   display: flex;
-  grid-column: col-2 / col-12;
-  grid-row: start / end;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
   height: 100%;
+  justify-content: space-between;
+  justify-items: center;
+  grid-column: start / end;
+  grid-row: start / end;
   transition: all .4s ease;
   width: 100%;
+
+  @media screen and (min-width: ${breakpoints.large}) {
+    grid-column: col-2 / col-12;
+  }
 `;
 
 const GridContainer = styled.div`
