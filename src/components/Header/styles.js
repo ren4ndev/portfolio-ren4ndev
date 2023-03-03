@@ -37,6 +37,10 @@ const NavListItem = styled.li`
   margin-right: 30px;
 `;
 
+const Link = styled.a`
+  text-decoration: none;
+`;
+
 export {
   HeaderContainer,
   Logo,
@@ -44,4 +48,5 @@ export {
   NavList,
   NavListItem,
   Image,
+  Link,
 };

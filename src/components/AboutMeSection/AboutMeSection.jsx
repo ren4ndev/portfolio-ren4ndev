@@ -14,7 +14,7 @@ import {
 
 function AboutMeSection() {
   return (
-    <GridSection color="primary">
+    <GridSection color="primary" id="about">
       <AboutMeContainer>
         <SubtitleArea>
           <Typography as="h2" type="heading-02" color="textscale-04">1. About me</Typography>

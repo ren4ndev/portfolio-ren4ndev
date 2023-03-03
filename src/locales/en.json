@@ -1,0 +1,30 @@
+{
+    "header": {
+        "menuItems": [
+            {
+                "number": "1. ",
+                "title": "About",
+                "link": "#about"
+            },
+            {
+                "number": "2. ",
+                "title": "Skills",
+                "link": "#skills"
+            },
+            {
+                "number": "3. ",
+                "title": "Work",
+                "link": "#work"
+            },
+            {
+                "number": "4. ",
+                "title": "Contact",
+                "link": "#contact"
+            }
+        ],
+        "themeButton": {
+            "dark": "Dark mode",
+            "light": "Light mode"
+        }
+    }
+}

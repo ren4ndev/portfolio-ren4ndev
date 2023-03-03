@@ -10,7 +10,7 @@ import {
 
 function SkillsSection() {
   return (
-    <GridSection color="primary">
+    <GridSection color="primary" id="skills">
       <GridContainer>
         <TopColoredBox />
         <BottomColoredBox />

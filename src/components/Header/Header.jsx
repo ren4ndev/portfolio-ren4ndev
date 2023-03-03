@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import content from '../../locales/en.json';
 import logo from '../../assets/images/logo.png';
 import Typography from '../Typography';
 import ThemeButton from '../ThemeButton';
@@ -10,6 +11,7 @@ import {
   NavList,
   NavListItem,
   Image,
+  Link,
 } from './styles';
 
 function Header({
@@ -23,22 +25,14 @@ function Header({
       </Logo>
       <NavContainer>
         <NavList>
-          <NavListItem>
-            <Typography type="body-02" color="tertiary">01. </Typography>
-            <Typography type="body-02" color="textscale-04">About</Typography>
-          </NavListItem>
-          <NavListItem>
-            <Typography type="body-02" color="tertiary">02. </Typography>
-            <Typography type="body-02" color="textscale-04">Experience</Typography>
-          </NavListItem>
-          <NavListItem>
-            <Typography type="body-02" color="tertiary">03. </Typography>
-            <Typography type="body-02" color="textscale-04">Work</Typography>
-          </NavListItem>
-          <NavListItem>
-            <Typography type="body-02" color="tertiary">04. </Typography>
-            <Typography type="body-02" color="textscale-04">Contact</Typography>
-          </NavListItem>
+          {content.header.menuItems.map(({ number, title, link }) => (
+            <Link href={link}>
+              <NavListItem key={title}>
+                <Typography type="body-02" color="tertiary">{number}</Typography>
+                <Typography type="body-02" color="textscale-04">{title}</Typography>
+              </NavListItem>
+            </Link>
+          ))}
         </NavList>
         <ThemeButton theme={theme} themeToggler={themeToggler} />
       </NavContainer>
