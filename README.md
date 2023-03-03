@@ -9,7 +9,6 @@ This is the project for my web portfolio. Here, I used React and a few more libr
 - [ ] Experience Section
 - [ ] Contact section
 - [ ] Header fixed on scroll
-- [ ] Mobile responsivity (mobile-first)
 - [ ] 3D animations
 - [ ] Switch Language (English <-> Portuguese) 
 
@@ -23,3 +22,4 @@ This is the project for my web portfolio. Here, I used React and a few more libr
 - [x] About me section
 - [x] Skills section
 - [x] Social media modal
+- [x] Mobile responsivity (mobile-first)
