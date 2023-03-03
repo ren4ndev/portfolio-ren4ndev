@@ -3,7 +3,7 @@ import { MoonStarsFill, SunFill } from '@styled-icons/bootstrap';
 
 const ThemeTogglerButton = styled.button`
   align-items: center;
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: transparent;
   border: ${({ theme }) => `1px solid ${theme.colors.tertiary}`};
   border-radius: 10px;
   cursor: pointer;
