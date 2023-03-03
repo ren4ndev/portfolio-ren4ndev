@@ -32,5 +32,12 @@
         "name": "Renan Oliveira",
         "title": "I'm a software developer",
         "description": "I'm a Full-stack developer, graduated at Trybe. My current goal is to keep improving my skills as a Python back-end developer, but there's a lot of other technologies that i know, work and that I'm learning too. My permanent goal is to always be a Clean Coder."
+    },
+    "aboutSection": {
+        "title": "1. About me",
+        "paragraphs": [
+            "Hi! My name is Renan and I work as a web and mobile developer. I'm also an Automation Technician, and when I was studying it, I had my first contact with programming. Since then, I've learned a lot of things related to development.",
+            "I've gratuaded as a Full Stack Web Developer at Trybe, one of the biggest schools of programming in South America. That's when i started to work professionally and exclusevily with software engineering. I already worked as a front-end, back-end and mobile engineer."
+        ]
     }
 }
