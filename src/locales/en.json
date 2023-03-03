@@ -1,0 +1,129 @@
+{
+    "header": {
+        "menuItems": [
+            {
+                "number": "1. ",
+                "title": "About",
+                "link": "#about"
+            },
+            {
+                "number": "2. ",
+                "title": "Skills",
+                "link": "#skills"
+            },
+            {
+                "number": "3. ",
+                "title": "Work",
+                "link": "#work"
+            },
+            {
+                "number": "4. ",
+                "title": "Contact",
+                "link": "#contact"
+            }
+        ],
+        "themeButton": {
+            "dark": "Dark mode",
+            "light": "Light mode"
+        }
+    },
+    "infoSection": {
+        "intro": "Hi, my name is",
+        "name": "Renan Oliveira",
+        "title": "I'm a software developer",
+        "description": "I'm a Full-stack developer, graduated at Trybe. My current goal is to keep improving my skills as a Python back-end developer, but there's a lot of other technologies that i know, work and that I'm learning too. My permanent goal is to always be a Clean Coder."
+    },
+    "aboutSection": {
+        "title": "1. About me",
+        "paragraphs": [
+            "Hi! My name is Renan and I work as a web and mobile developer. I'm also an Automation Technician, and when I was studying it, I had my first contact with programming. Since then, I've learned a lot of things related to development.",
+            "I've gratuaded as a Full Stack Web Developer at Trybe, one of the biggest schools of programming in South America. That's when i started to work professionally and exclusevily with software engineering. I already worked as a front-end, back-end and mobile engineer."
+        ]
+    },
+    "skillsSection": [
+        {
+            "title": "Backend Developer",
+            "icon": "backend",
+            "description": "As a Backend developer, I manage and model databases, build API's and manage the flow of messages trough the cloud.",
+            "sublists": [
+                {
+                    "title": "Languages I speak",
+                    "items": [
+                        "Python",
+                        "Node.js",
+                        "Java",
+                        "SQL"
+                    ]
+                },
+                {
+                    "title": "Devtools",
+                    "items": [
+                        "Express.js",
+                        "MongoDB",
+                        "MySQL",
+                        "PostgreSQL",
+                        "gRPC",
+                        "Docker",
+                        "Amazon Web Services",
+                        "Git"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Frontend Developer",
+            "icon": "frontend",
+            "description": "As a Frontend developer, I build interfaces, manage the comunication back for front, and even design myself some of the interfaces i build.",
+            "sublists": [
+                {
+                    "title": "Languages I speak",
+                    "items": [
+                        "Javascript",
+                        "Python"
+                    ]
+                },
+                {
+                    "title": "Devtools",
+                    "items": [
+                        "React.js",
+                        "React Native",
+                        "Next.js",
+                        "CSS-in-JS",
+                        "Sass",
+                        "HTML5",
+                        "CSS3",
+                        "Git"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Other skills",
+            "icon": "others",
+            "description": "As a software engineer, I've worked with a lot of other technologies and patterns.",
+            "sublists": [
+                {
+                    "title": "I've already worked with:",
+                    "items": [
+                        "OOP (Object-Oriented Programming)",
+                        "Micro services architecture",
+                        "Airflow",
+                        "Datadog",
+                        "Gitflow",
+                        "Atomic Design",
+                        "Atomic Kitchen"
+                    ]
+                },
+                {
+                    "title": "I'm familiar with:",
+                    "items": [
+                        "Clean architecture",
+                        "SOLID",
+                        "REST",
+                        "Cloud"
+                    ]
+                }
+            ]
+        }
+    ]
+}
