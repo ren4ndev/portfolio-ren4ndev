@@ -162,7 +162,17 @@ const themeLight = {
   },
 };
 
+const breakpoints = {
+  xsmall: '320px',
+  small: '480px',
+  xmedium: '768px',
+  medium: '1024px',
+  large: '1200px',
+  xlarge: '1920px',
+};
+
 export {
   themeDark,
   themeLight,
+  breakpoints,
 };
