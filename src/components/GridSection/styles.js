@@ -5,18 +5,18 @@ const SectionContainer = styled.section`
   background-color: ${({ theme, color }) => theme.colors[color]};
   column-gap: 16px;
   display: grid;
-  grid-template-rows: [top-border] 1rem [start] 1fr [end] 1rem [bottom-border];
+  grid-template-rows: [top-border] 1rem [start] auto [middle] auto [end] 1rem [bottom-border];
   grid-template-columns: [left-border] 1rem [start col-1] 1fr [col-2] 1fr [col-3] 1fr [col-4] 1fr [end] 1rem [right-border];
   min-height: fit-content;
   transition: all .4s ease;
 
   @media screen and (min-width: ${breakpoints.small}) {
-    grid-template-rows: [top-border] 2rem [start] 1fr [end] 2rem [bottom-border];
+    grid-template-rows: [top-border] 2rem [start] auto [middle] auto [end] 2rem [bottom-border];
     grid-template-columns: [left-border] 2rem [start col-1] 1fr [col-2] 1fr [col-3] 1fr [col-4] 1fr [end] 2rem [right-border];
   }
 
   @media screen and (min-width: ${breakpoints.xmedium}) {
-    grid-template-rows: [top-border] 2rem [start] 1fr [end] 2rem [bottom-border];
+    grid-template-rows: [top-border] 2rem [start] auto [middle] auto [end] 2rem [bottom-border];
     grid-template-columns: [left-border] 3rem [start col-1] 1fr [col-2] 1fr [col-3] 1fr [col-4] 1fr [end] 3rem [right-border];
   }
 

@@ -1,14 +1,24 @@
 import styled from 'styled-components';
+import { breakpoints } from '../../styles/theme';
 
 const AboutMeContainer = styled.div`
   display: flex;
   flex-direction: column;
-  grid-column: col-7 / col-12;
-  grid-row: start / end;
+  grid-column: start / end;
+  grid-row: middle / end;
   justify-content: center;
   height: 100%;
   transition: all .4s ease;
   width: 100%;
+  
+  @media screen and (min-width: ${breakpoints.xmedium}) {
+    grid-column: col-3 / end;
+    grid-row: start / end;
+  }
+  
+  @media screen and (min-width: ${breakpoints.medium}) {
+    grid-column: col-7 / col-12;
+  }
 `;
 
 const SubtitleArea = styled.div`
@@ -29,11 +39,30 @@ const DescriptionTextArea = styled.div`
 
 const ImageContainer = styled.div`
   align-self: center;
-  grid-column: col-2 / col-6;
-  grid-row: start / end;
-  height: 320px;
-  justify-self: flex-end;
-  width: 320px;
+  grid-column: start / end;
+  grid-row: start / middle;
+  height: 250px;
+  justify-self: center;
+  margin: 1.5rem 0;
+  width: 250px;
+  
+  @media screen and (min-width: ${breakpoints.small}) {
+    height: 280px;
+    width: 280px;
+  }
+  
+  @media screen and (min-width: ${breakpoints.xmedium}) {
+    grid-column: start / col-3;
+    grid-row: start / end;
+  }
+  
+  @media screen and (min-width: ${breakpoints.medium}) {
+    grid-column: col-2 / col-6;
+    height: 320px;
+    justify-self: flex-end;
+    width: 320px;
+    justify-self: flex-end;
+  }
 `;
 
 const ImageArea = styled.img`
