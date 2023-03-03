@@ -7,8 +7,16 @@ const HeaderContainer = styled.header`
   background-color: ${({ theme }) => theme.colors.primary};
   display: flex;
   justify-content: space-between;
-  padding: 1rem 3rem;
+  padding: 1rem;
   transition: all .4s ease;
+
+  @media screen and (min-width: ${breakpoints.small}) {
+    padding: 1.5rem 2rem;
+  }
+  
+  @media screen and (min-width: ${breakpoints.xmedium}) {
+    padding: 1.5rem 3rem;
+  }
 `;
 
 const Logo = styled.h1`
@@ -17,8 +25,18 @@ const Logo = styled.h1`
 `;
 
 const Image = styled.img`
-  height: 70px;
-  width: 70px;
+  height: 35px;
+  width: 35px;
+
+  @media screen and (min-width: ${breakpoints.xmedium}) {
+    height: 45px;
+    width: 45px;
+  }
+
+  @media screen and (min-width: ${breakpoints.medium}) {
+    height: 70px;
+    width: 70px;
+  }
 `;
 
 const NavContainer = styled.nav`

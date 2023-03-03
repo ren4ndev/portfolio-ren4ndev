@@ -1,14 +1,23 @@
 import styled from 'styled-components';
+import { breakpoints } from '../../styles/theme';
 
 const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
-  grid-column: col-2 / col-10;
+  grid-column: start / end;
   grid-row: start / end;
   justify-content: center;
   height: 100%;
   transition: all .4s ease;
   width: 100%;
+
+  @media screen and (min-width: ${breakpoints.xmedium}) {
+    grid-column: start / col-4;
+  }
+
+  @media screen and (min-width: ${breakpoints.medium}) {
+    grid-column: col-2 / col-10;
+  }
 `;
 
 const MonoTextArea = styled.div`
