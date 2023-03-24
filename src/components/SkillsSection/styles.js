@@ -15,7 +15,7 @@ const SkillsContainer = styled.div`
   transition: all .4s ease;
   width: 100%;
 
-  @media screen and (min-width: ${breakpoints.large}) {
+  @media screen and (min-width: ${breakpoints.xlarge}) {
     grid-column: col-2 / col-12;
   }
 `;

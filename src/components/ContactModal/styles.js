@@ -25,10 +25,30 @@ const ModalContainer = styled.div`
 };
 
   @media screen and (min-width: ${breakpoints.xmedium}) {
-    width: 120px;
+    width: 100px;
+    height: 280px;
+    transform: ${({ show }) => {
+    if (!show) return 'translateX(-75px)';
+    return null;
+  }
+};
+  }
+
+  @media screen and (min-width: ${breakpoints.large}) {
+    width: 130px;
     height: 350px;
     transform: ${({ show }) => {
     if (!show) return 'translateX(-90px)';
+    return null;
+  }
+};
+  }
+
+  @media screen and (min-width: ${breakpoints.xlarge}) {
+    width: 150px;
+    height: 400px;
+    transform: ${({ show }) => {
+    if (!show) return 'translateX(-115px)';
     return null;
   }
 };
@@ -48,7 +68,15 @@ const ContactArea = styled.div`
   transition: all .4s ease;
   
   @media screen and (min-width: ${breakpoints.xmedium}) {
+    width: 75px;
+  }
+
+  @media screen and (min-width: ${breakpoints.large}) {
     width: 90px;
+  }
+
+  @media screen and (min-width: ${breakpoints.xlarge}) {
+    width: 115px;
   }
 `;
 
@@ -61,9 +89,21 @@ const SocialButton = styled.a`
   width: 30px;
 
   @media screen and (min-width: ${breakpoints.xmedium}) {
+    height: 30px;
+    margin: 10px 0;
+    width: 30px;
+  }
+
+  @media screen and (min-width: ${breakpoints.large}) {
     height: 40px;
     margin: 10px 0;
     width: 40px;
+  }
+
+  @media screen and (min-width: ${breakpoints.xlarge}) {
+    height: 50px;
+    margin: 12px 0;
+    width: 50px;
   }
 `;
 
@@ -109,8 +149,20 @@ const ContactLabel = styled.div`
   
   @media screen and (min-width: ${breakpoints.xmedium}) {
     height: 150px;
-    margin-bottom: 50px;
-    width: 30px;
+    margin-bottom: 30px;
+    width: 25px;
+  }
+
+  @media screen and (min-width: ${breakpoints.large}) {
+    height: 200px;
+    margin-bottom: 35px;
+    width: 40px;
+  }
+
+  @media screen and (min-width: ${breakpoints.xlarge}) {
+    height: 200px;
+    margin-bottom: 35px;
+    width: 35px;
   }
 `;
 
@@ -125,9 +177,21 @@ const LabelArea = styled.div`
   width: 120px;
   
   @media screen and (min-width: ${breakpoints.xmedium}) {
-    height: 30px;
-    transform: translateX(30px) rotate(90deg);
+    height: 25px;
+    transform: translateX(25px) rotate(90deg);
     width: 150px;
+  }
+
+  @media screen and (min-width: ${breakpoints.large}) {
+    height: 40px;
+    transform: translateX(40px) rotate(90deg);
+    width: 200px;
+  }
+
+  @media screen and (min-width: ${breakpoints.xlarge}) {
+    height: 35px;
+    transform: translateX(35px) rotate(90deg);
+    width: 200px;
   }
 `;
 

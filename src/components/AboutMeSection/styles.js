@@ -29,7 +29,7 @@ const SubtitleArea = styled.div`
 
 const DescriptionTextArea = styled.div`
   font-family: ${({ theme }) => theme.fonts.mono};
-  max-width: 600px;
+  max-width: 800px;
   transition: all .4s ease;
 
   > p {
