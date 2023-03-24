@@ -93,7 +93,7 @@ const SideMenu = styled.div`
   box-shadow: -12px 10px 31px -15px #0A192F;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   justify-content: flex-start;
   padding: 20px 20px 30px;
   position: fixed;
