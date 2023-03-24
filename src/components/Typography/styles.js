@@ -22,6 +22,11 @@ const Typography = styled('span').attrs(({ tag }) => ({
     font-size: ${({ theme, type }) => theme.typography.types[type].size};
     line-height: ${({ theme, type }) => theme.typography.types[type].lineHeight};
   }
+
+  @media screen and (min-width: ${breakpoints.large}) {
+    font-size: ${({ theme, type }) => theme.typography.types[type].largeSize};
+    line-height: ${({ theme, type }) => theme.typography.types[type].largeLineHeight};
+  }
 `;
 
 export default Typography;

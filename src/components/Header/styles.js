@@ -27,6 +27,7 @@ const Logo = styled.h1`
 const Image = styled.img`
   height: 35px;
   width: 35px;
+  transition: all .4s ease;
 
   @media screen and (min-width: ${breakpoints.xmedium}) {
     height: 45px;
@@ -36,6 +37,10 @@ const Image = styled.img`
   @media screen and (min-width: ${breakpoints.medium}) {
     height: 70px;
     width: 70px;
+
+    :hover {
+      transform: scale(1.2);
+    }
   }
 `;
 
@@ -59,9 +64,14 @@ const NavListItem = styled.li`
   font-family: ${({ theme }) => theme.fonts.mono};
   list-style: none;
   margin: 30px 0;
+  transition: all .4s ease;
 
   @media screen and (min-width: ${breakpoints.medium}) {
-    margin: 0 30px 0 0;
+    margin: 0 60px 0 0;
+  }
+
+  :hover {
+    transform: scale(1.1);
   }
 `;
 

@@ -25,6 +25,7 @@ const ColumnBox = styled.div`
     height: 100%;
     margin: 0;
     padding: 30px 50px;
+    max-width: 500px;
     width: 32%;
   }
 `;
