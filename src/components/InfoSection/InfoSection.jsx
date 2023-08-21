@@ -1,13 +1,16 @@
 /* eslint-disable max-len */
 import React from 'react';
+import Lottie from 'lottie-react';
 import GridSection from '../GridSection';
 import Typography from '../Typography/styles';
 import content from '../../locales/en.json';
+import animationData from '../../assets/lotties/code-lottie.json';
 import {
   InfoContainer,
   MonoTextArea,
   DisplayTextArea,
   DescriptionTextArea,
+  AnimationContainer,
 } from './styles';
 
 function InfoSection() {
@@ -43,6 +46,9 @@ function InfoSection() {
           </Typography>
         </DescriptionTextArea>
       </InfoContainer>
+      <AnimationContainer>
+        <Lottie animationData={animationData} loop />
+      </AnimationContainer>
     </GridSection>
   );
 }
