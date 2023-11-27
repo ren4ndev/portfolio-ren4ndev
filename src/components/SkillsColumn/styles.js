@@ -26,7 +26,11 @@ const ColumnBox = styled.div`
     margin: 0;
     padding: 30px 50px;
     max-width: 500px;
-    width: 32%;
+    transform: ${({ highlight }) => {
+    if (highlight) return 'scale(1.2)';
+    return 'scale(1)';
+  }};
+    width: 29%;
   }
 `;
 

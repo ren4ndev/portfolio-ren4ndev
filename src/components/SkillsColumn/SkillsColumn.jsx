@@ -17,6 +17,7 @@ import Typography from '../Typography';
 function SkillsColumn({
   icon,
   title,
+  highlight,
   description,
   firstSubtitle,
   firstContent,
@@ -37,7 +38,7 @@ function SkillsColumn({
   };
 
   return (
-    <ColumnBox>
+    <ColumnBox highlight={highlight}>
       <IconBox>
         {renderIcon()}
       </IconBox>
@@ -88,6 +89,7 @@ function SkillsColumn({
 SkillsColumn.propTypes = {
   icon: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+  highlight: PropTypes.bool.isRequired,
   description: PropTypes.string.isRequired,
   firstSubtitle: PropTypes.string.isRequired,
   firstContent: PropTypes.string.isRequired,

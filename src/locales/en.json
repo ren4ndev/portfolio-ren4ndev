@@ -31,18 +31,19 @@
         "intro": "Hi, my name is",
         "name": "Renan Oliveira",
         "title": "I'm a software developer",
-        "description": "I'm a Full-stack developer, graduated at Trybe. My current goal is to keep improving my skills as a Python back-end developer, but there's a lot of other technologies that i know, work and that I'm learning too. My permanent goal is to always be a Clean Coder."
+        "description": "I'm a specialist in web interface development, and graduated as a full-stack web developer at Trybe. My current goal is to keep improving my skills as a front-end developer, but I have experience working with many other types of coding. You can read about that on the Work tab. My permanent goal is to always be a clean coder."
     },
     "aboutSection": {
         "title": "1. About me",
         "paragraphs": [
-            "Hi! My name is Renan and I work as a web and mobile developer. I'm also an Automation Technician, and when I was studying it, I had my first contact with programming. Since then, I've learned a lot of things related to development.",
-            "I've gratuaded as a Full Stack Web Developer at Trybe, one of the biggest schools of programming in South America. That's when i started to work professionally and exclusevily with software engineering. I already worked as a front-end, back-end and mobile engineer."
+            "Hi! My name is Renan and I work as a web and mobile developer. I'm also an automation technician, and when I was studying it, I had my first contact with programming. Since then, I've learned a lot of things related to development.",
+            "I've gratuaded as a Full Stack Web Developer at Trybe, one of the biggest schools of programming in South America. That's when I started to work professionally and exclusevily with software engineering. I already worked as a front-end, back-end and mobile engineer."
         ]
     },
     "skillsSection": [
         {
             "title": "Backend Developer",
+            "highlight": false,
             "icon": "backend",
             "description": "As a Backend developer, I manage and model databases, build API's and manage the flow of messages trough the cloud.",
             "sublists": [
@@ -72,6 +73,7 @@
         },
         {
             "title": "Frontend Developer",
+            "highlight": true,
             "icon": "frontend",
             "description": "As a Frontend developer, I build interfaces, manage the comunication back for front, and even design myself some of the interfaces i build.",
             "sublists": [
@@ -99,6 +101,7 @@
         },
         {
             "title": "Other skills",
+            "highlight": false,
             "icon": "others",
             "description": "As a software engineer, I've worked with a lot of other technologies and patterns.",
             "sublists": [
