@@ -5,7 +5,7 @@ const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
   grid-column: start / end;
-  grid-row: start / end;
+  grid-row: start / middle;
   justify-content: center;
   height: 100%;
   transition: all .4s ease;
@@ -16,7 +16,7 @@ const InfoContainer = styled.div`
   }
 
   @media screen and (min-width: ${breakpoints.medium}) {
-    grid-column: col-2 / col-10;
+    grid-column: col-2 / col-7;
   }
 `;
 
@@ -38,9 +38,26 @@ const DescriptionTextArea = styled.div`
   transition: all .4s ease;
 `;
 
+const AnimationContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  grid-column: start / end;
+  grid-row: middle / end;
+  justify-content: center;
+  height: 100%;
+  transition: all .4s ease;
+  width: 100%;
+
+  @media screen and (min-width: ${breakpoints.medium}) {
+    grid-column: col-7 / end;
+    grid-row: start / end;
+  }
+`;
+
 export {
   InfoContainer,
   MonoTextArea,
   DisplayTextArea,
   DescriptionTextArea,
+  AnimationContainer,
 };

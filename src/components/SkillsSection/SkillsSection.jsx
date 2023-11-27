@@ -22,6 +22,7 @@ function SkillsSection() {
           <SkillsColumn
             icon={item.icon}
             title={item.title}
+            highlight={item.highlight}
             description={item.description}
             firstSubtitle={item.sublists[0].title}
             firstContent={item.sublists[0].items}
