@@ -31,7 +31,7 @@
         "intro": "Hi, my name is",
         "name": "Renan Oliveira",
         "title": "I'm a software developer",
-        "description": "I'm a specialist in web interface development, and graduated as a full-stack web developer at Trybe. My current goal is to keep improving my skills as a front-end developer, but I have experience working with many other types of coding. You can read about that on the Work tab. My permanent goal is to always be a clean coder."
+        "description": "I'm a specialist in back-end development, and graduated as a full-stack web developer at Trybe. My current goal is to keep improving my skills as a back-end developer, but I have experience working with many other types of coding. You can read about that on the Work tab. My permanent goal is to always be a clean coder."
     },
     "aboutSection": {
         "title": "1. About me",
@@ -42,38 +42,8 @@
     },
     "skillsSection": [
         {
-            "title": "Backend Developer",
-            "highlight": false,
-            "icon": "backend",
-            "description": "As a Backend developer, I manage and model databases, build API's and manage the flow of messages trough the cloud.",
-            "sublists": [
-                {
-                    "title": "Languages I speak",
-                    "items": [
-                        "Python",
-                        "Node.js",
-                        "Java",
-                        "SQL"
-                    ]
-                },
-                {
-                    "title": "Devtools",
-                    "items": [
-                        "Express.js",
-                        "MongoDB",
-                        "MySQL",
-                        "PostgreSQL",
-                        "gRPC",
-                        "Docker",
-                        "Amazon Web Services",
-                        "Git"
-                    ]
-                }
-            ]
-        },
-        {
             "title": "Frontend Developer",
-            "highlight": true,
+            "highlight": false,
             "icon": "frontend",
             "description": "As a Frontend developer, I build interfaces, manage the comunication back for front, and even design myself some of the interfaces i build.",
             "sublists": [
@@ -93,8 +63,36 @@
                         "CSS-in-JS",
                         "Sass",
                         "HTML5",
-                        "CSS3",
-                        "Git"
+                        "CSS3"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Backend Developer",
+            "highlight": true,
+            "icon": "backend",
+            "description": "As a Backend developer, I manage and model databases, build API's and manage the flow of messages trough the cloud.",
+            "sublists": [
+                {
+                    "title": "Languages I speak",
+                    "items": [
+                        "Python",
+                        "Node.js",
+                        "SQL"
+                    ]
+                },
+                {
+                    "title": "Devtools",
+                    "items": [
+                        "Django",
+                        "Express.js",
+                        "MongoDB",
+                        "MySQL",
+                        "PostgreSQL",
+                        "gRPC",
+                        "Docker",
+                        "Amazon Web Services"
                     ]
                 }
             ]
@@ -108,6 +106,7 @@
                 {
                     "title": "I've already worked with:",
                     "items": [
+                        "Git",
                         "OOP (Object-Oriented Programming)",
                         "Micro services architecture",
                         "Airflow",
